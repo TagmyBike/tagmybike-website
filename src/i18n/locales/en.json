@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "specs": "Specs",
+    "contact": "Contact Sales"
+  },
+  "hero": {
+    "title": "Smart Tracking.\nYour Brand.",
+    "subtitle": "Invisible GPS trackers ready for your brand. OEM-ready hardware for bike manufacturers, retailers, e-bike brands, and fleet operators.",
+    "cta": "Request a Demo",
+    "secondaryCta": "View Solutions"
+  },
+  "badges": {
+    "findMy": "Apple Find My",
+    "findHub": "Android Find Hub"
+  },
+  "customization": {
+    "pill": "B2B White-Label",
+    "title": "Your Brand. Your Smart Tag.",
+    "subtitle": "Skip years of R&D and launch a branded smart accessory line in weeks, not years. We handle hardware, firmware, and cloud — you keep the customer relationship.",
+    "features": [
+      "Fully branded packaging & firmware",
+      "OTA firmware updates — no user action required",
+      "Device provisioning & white-label registration",
+      "Flexible MOQs for any order size"
+    ],
+    "cta": "Request a Demo"
+  },
+  "problem": {
+    "tag": "Billion Dollar Problem",
+    "title": "Bike Theft is a",
+    "highlight": "Billion Dollar Problem",
+    "metrics": {
+      "loss": {
+        "value": "€500M+",
+        "label": "Annual loss to bike theft in Europe"
+      },
+      "time": {
+        "value": "<60s",
+        "label": "Average time to steal a bike"
+      },
+      "recovery": {
+        "value": "—",
+        "label": "Recovery rate — data pending"
+      }
+    },
+    "source": "Source: European Cyclists' Federation, Police Crime Statistics"
+  },
+  "solutionOverview": {
+    "title": "Technology & Platform",
+    "subtitle": "All three accessories share the same robust technology infrastructure — one firmware, one API, one support protocol.",
+    "cards": {
+      "hardware": {
+        "title": "Unified Hardware Platform",
+        "desc": "210 mAh Li-ion battery with up to 12 months life. 60–80 dB anti-theft alarm with smart motion detection. Apple Find My + Android Find Hub — no subscription fees."
+      },
+      "tracking": {
+        "title": "Cloud Platform & OTA",
+        "desc": "Automated device provisioning with unique identity and white-label firmware registration. Push OTA updates to deployed devices seamlessly — no user action required."
+      },
+      "recovery": {
+        "title": "Global Certifications",
+        "desc": "CE, FCC, ROHS, RED, GCC certified — ready for Europe, North America, and Middle East. 99.9% uptime SLA, GDPR compliant with data residency options for EU, NA, and APAC."
+      }
+    },
+    "cta": {
+      "hardware": "View Products",
+      "tracking": "Learn More",
+      "recovery": "Get in Touch"
+    }
+  },
+  "accessories": {
+    "title": "OEM-Ready Hardware",
+    "subtitle": "Purpose-built for brands that want to offer connected, secure cycling experiences at scale.",
+    "bell": {
+      "title": "Smart Bell — MA-T01",
+      "desc": "Discreet anti-theft tracking built into a standard bell. Stainless steel construction with integrated GPS.",
+      "spec": "Stainless Steel | 32g | IPX5 | 12-month battery"
+    },
+    "cup": {
+      "title": "Smart Bottle Holder — MA-T03",
+      "desc": "The most concealed tracking option on any bicycle. Stainless steel construction, invisible to thieves.",
+      "spec": "Stainless Steel | 73.6g | 210 mAh Li-ion"
+    },
+    "light": {
+      "title": "Smart Tail Light — MA-T02",
+      "desc": "High-visibility LED combined with integrated tracker. Safety and security in one accessory.",
+      "spec": "ABS Housing | 42.4g | LED + Tracker"
+    },
+    "sampleCta": "Request Sample"
+  },
+  "techSpecs": {
+    "title": "Specifications",
+    "subtitle": "Technical specifications for TagMyBike tracking hardware.",
+    "disclaimer": "Specifications subject to final production. Contact us for detailed spec sheets.",
+    "specs": {
+      "connectivity": { "label": "Connectivity", "value": "Apple Find My + Android Find Hub" },
+      "battery": { "label": "Battery", "value": "210 mAh Li-ion, up to 12 months" },
+      "alarm": { "label": "Anti-Theft Alarm", "value": "60–80 dB audible alert" },
+      "waterResistance": { "label": "Water Resistance", "value": "IPX5" },
+      "certifications": { "label": "Certifications", "value": "CE, FCC, ROHS, RED, GCC" },
+      "compatibility": { "label": "Platform Support", "value": "Apple Find My + Android Find Hub" },
+      "subscription": { "label": "Subscription Fees", "value": "None" },
+      "cloud": { "label": "Cloud Infrastructure", "value": "99.9% uptime SLA, GDPR compliant" },
+      "ota": { "label": "Firmware Updates", "value": "OTA — no user action required" },
+      "encryption": { "label": "Data Residency", "value": "EU, NA, and APAC options" }
+    },
+    "downloadCta": "Download Spec Sheet"
+  },
+  "contactEnterprise": {
+    "title": "Get a Quote",
+    "subtitle": "Contact us today for pricing, technical specifications, sample units, and partnership details.",
+    "emailCta": "Request a Quote",
+    "phoneCta": "Call Sales"
+  },
+  "footer": {
+    "tagline": "OEM-ready GPS tracking accessories for bike manufacturers, retailers, e-bike brands, and fleet operators.",
+    "rights": "All rights reserved.",
+    "legal": "Legal",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "imprint": "Imprint"
+    },
+    "contact": "Contact",
+    "location": "Mülheim an der Ruhr, Germany"
+  },
+  "imprint": {
+    "title": "Imprint"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2026"
+  },
+  "contactPage": {
+    "tag": "Contact Sales",
+    "title": "Get in Touch",
+    "subtitle": "Ready to integrate smart tracking into your products? Contact our team for a personalized consultation.",
+    "formTitle": "Send us a Message",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "company": "Company",
+    "companyPlaceholder": "Your company name",
+    "phone": "Phone",
+    "phonePlaceholder": "+49 123 456789",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your needs...",
+    "submit": "Send Message",
+    "submitting": "Opening Email...",
+    "successTitle": "Email Client Opened!",
+    "successText": "Please send the email from your email client to complete your request. We'll get back to you as soon as possible.",
+    "sendAnother": "Send Another Message",
+    "infoTitle": "Contact Information",
+    "companyName": "BOOOST E-Mobility Solutions GmbH",
+    "address": "Großenbaumer Str. 252",
+    "city": "45479 Mülheim an der Ruhr",
+    "country": "Germany",
+    "managingDirector": "Managing Director",
+    "directorName": "Peter Cromm",
+    "registration": "Registration",
+    "registrationText": "Registry Court: AG Duisburg\nRegistration Number: HRB 37045",
+    "directContact": "Prefer to reach out directly?"
+  }
+}

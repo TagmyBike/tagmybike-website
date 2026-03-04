@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "solutions": "Lösungen",
+    "specs": "Spezifikationen",
+    "contact": "Vertrieb kontaktieren"
+  },
+  "hero": {
+    "title": "Smart Tracking.\nIhre Marke.",
+    "subtitle": "Unsichtbare GPS-Tracker für Ihre Marke. OEM-fertige Hardware für Fahrradhersteller, Einzelhändler, E-Bike-Marken und Flottenbetreiber.",
+    "cta": "Demo anfragen",
+    "secondaryCta": "Lösungen ansehen"
+  },
+  "badges": {
+    "findMy": "Apple Find My",
+    "findHub": "Android Find Hub"
+  },
+  "customization": {
+    "pill": "B2B White-Label",
+    "title": "Ihre Marke. Ihr Smart Tag.",
+    "subtitle": "Überspringen Sie Jahre der F&E und bringen Sie eine gebrandete Smart-Accessoire-Linie in Wochen statt Jahren auf den Markt. Wir kümmern uns um Hardware, Firmware und Cloud — Sie behalten die Kundenbeziehung.",
+    "features": [
+      "Vollständig gebrandete Verpackung & Firmware",
+      "OTA-Firmware-Updates — keine Benutzeraktion erforderlich",
+      "Geräte-Provisionierung & White-Label-Registrierung",
+      "Flexible Mindestbestellmengen für jede Auftragsgröße"
+    ],
+    "cta": "Demo anfragen"
+  },
+  "problem": {
+    "tag": "Milliarden-Problem",
+    "title": "Fahrraddiebstahl ist ein",
+    "highlight": "Milliarden-Problem",
+    "metrics": {
+      "loss": {
+        "value": "€500M+",
+        "label": "Jährlicher Verlust durch Fahrraddiebstahl in Europa"
+      },
+      "time": {
+        "value": "<60s",
+        "label": "Durchschnittliche Zeit, um ein Fahrrad zu stehlen"
+      },
+      "recovery": {
+        "value": "—",
+        "label": "Wiederbeschaffungsrate — Daten ausstehend"
+      }
+    },
+    "source": "Quelle: European Cyclists' Federation, Polizeiliche Kriminalstatistik"
+  },
+  "solutionOverview": {
+    "title": "Technologie & Plattform",
+    "subtitle": "Alle drei Zubehörteile teilen dieselbe robuste Technologie-Infrastruktur — eine Firmware, eine API, ein Support-Protokoll.",
+    "cards": {
+      "hardware": {
+        "title": "Einheitliche Hardware-Plattform",
+        "desc": "210 mAh Li-Ion-Akku mit bis zu 12 Monaten Laufzeit. 60–80 dB Anti-Diebstahl-Alarm mit intelligenter Bewegungserkennung. Apple Find My + Android Find Hub — keine Abogebühren."
+      },
+      "tracking": {
+        "title": "Cloud-Plattform & OTA",
+        "desc": "Automatische Geräte-Provisionierung mit eindeutiger Identität und White-Label-Firmware-Registrierung. OTA-Updates nahtlos auf eingesetzte Geräte pushen — keine Benutzeraktion erforderlich."
+      },
+      "recovery": {
+        "title": "Globale Zertifizierungen",
+        "desc": "CE, FCC, ROHS, RED, GCC zertifiziert — bereit für Europa, Nordamerika und den Nahen Osten. 99,9% Verfügbarkeits-SLA, DSGVO-konform mit Datenresidenz-Optionen für EU, NA und APAC."
+      }
+    },
+    "cta": {
+      "hardware": "Produkte ansehen",
+      "tracking": "Mehr erfahren",
+      "recovery": "Kontakt aufnehmen"
+    }
+  },
+  "accessories": {
+    "title": "OEM-fertige Hardware",
+    "subtitle": "Entwickelt für Marken, die vernetzte, sichere Fahrraderlebnisse im großen Maßstab anbieten wollen.",
+    "bell": {
+      "title": "Smart Bell — MA-T01",
+      "desc": "Diskretes Anti-Diebstahl-Tracking in einer Standardklingel verbaut. Edelstahlkonstruktion mit integriertem GPS.",
+      "spec": "Edelstahl | 32g | IPX5 | 12 Monate Akku"
+    },
+    "cup": {
+      "title": "Smart Bottle Holder — MA-T03",
+      "desc": "Die unauffälligste Tracking-Option an jedem Fahrrad. Edelstahlkonstruktion, unsichtbar für Diebe.",
+      "spec": "Edelstahl | 73,6g | 210 mAh Li-Ion"
+    },
+    "light": {
+      "title": "Smart Tail Light — MA-T02",
+      "desc": "Hochsichtbares LED kombiniert mit integriertem Tracker. Sicherheit und Schutz in einem Zubehör.",
+      "spec": "ABS-Gehäuse | 42,4g | LED + Tracker"
+    },
+    "sampleCta": "Muster anfragen"
+  },
+  "techSpecs": {
+    "title": "Spezifikationen",
+    "subtitle": "Technische Spezifikationen der TagMyBike Tracking-Hardware.",
+    "disclaimer": "Spezifikationen vorbehaltlich der finalen Produktion. Kontaktieren Sie uns für detaillierte Datenblätter.",
+    "specs": {
+      "connectivity": { "label": "Konnektivität", "value": "Apple Find My + Android Find Hub" },
+      "battery": { "label": "Akku", "value": "210 mAh Li-Ion, bis zu 12 Monate" },
+      "alarm": { "label": "Anti-Diebstahl-Alarm", "value": "60–80 dB akustischer Alarm" },
+      "waterResistance": { "label": "Wasserdichtigkeit", "value": "IPX5" },
+      "certifications": { "label": "Zertifizierungen", "value": "CE, FCC, ROHS, RED, GCC" },
+      "compatibility": { "label": "Plattform-Support", "value": "Apple Find My + Android Find Hub" },
+      "subscription": { "label": "Abogebühren", "value": "Keine" },
+      "cloud": { "label": "Cloud-Infrastruktur", "value": "99,9% Verfügbarkeits-SLA, DSGVO-konform" },
+      "ota": { "label": "Firmware-Updates", "value": "OTA — keine Benutzeraktion erforderlich" },
+      "encryption": { "label": "Datenresidenz", "value": "EU, NA und APAC Optionen" }
+    },
+    "downloadCta": "Datenblatt herunterladen"
+  },
+  "contactEnterprise": {
+    "title": "Angebot einholen",
+    "subtitle": "Kontaktieren Sie uns für Preise, technische Spezifikationen, Mustereinheiten und Partnerschaftsdetails.",
+    "emailCta": "Angebot anfragen",
+    "phoneCta": "Vertrieb anrufen"
+  },
+  "footer": {
+    "tagline": "OEM-fertige GPS-Tracking-Zubehörteile für Fahrradhersteller, Einzelhändler, E-Bike-Marken und Flottenbetreiber.",
+    "rights": "Alle Rechte vorbehalten.",
+    "legal": "Rechtliches",
+    "links": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "imprint": "Impressum"
+    },
+    "contact": "Kontakt",
+    "location": "Mülheim an der Ruhr, Deutschland"
+  },
+  "imprint": {
+    "title": "Impressum"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2026"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2026"
+  },
+  "contactPage": {
+    "tag": "Vertrieb kontaktieren",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit, Smart Tracking in Ihre Produkte zu integrieren? Kontaktieren Sie unser Team für eine persönliche Beratung.",
+    "formTitle": "Nachricht senden",
+    "name": "Name",
+    "namePlaceholder": "Ihr vollständiger Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.de",
+    "company": "Unternehmen",
+    "companyPlaceholder": "Ihr Firmenname",
+    "phone": "Telefon",
+    "phonePlaceholder": "+49 123 456789",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von Ihren Anforderungen...",
+    "submit": "Nachricht senden",
+    "submitting": "E-Mail wird geöffnet...",
+    "successTitle": "E-Mail-Client geöffnet!",
+    "successText": "Bitte senden Sie die E-Mail über Ihren E-Mail-Client, um Ihre Anfrage abzuschließen. Wir melden uns so schnell wie möglich bei Ihnen.",
+    "sendAnother": "Weitere Nachricht senden",
+    "infoTitle": "Kontaktinformationen",
+    "companyName": "BOOOST E-Mobility Solutions GmbH",
+    "address": "Großenbaumer Str. 252",
+    "city": "45479 Mülheim an der Ruhr",
+    "country": "Deutschland",
+    "managingDirector": "Geschäftsführer",
+    "directorName": "Peter Cromm",
+    "registration": "Registereintrag",
+    "registrationText": "Registergericht: AG Duisburg\nRegisternummer: HRB 37045",
+    "directContact": "Lieber direkt kontaktieren?"
+  }
+}

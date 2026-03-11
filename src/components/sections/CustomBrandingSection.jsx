@@ -8,8 +8,7 @@ const CustomBrandingSection = () => {
     const features = [
         { icon: <Package size={22} />, text: t('customization.features.0') },
         { icon: <Smartphone size={22} />, text: t('customization.features.1') },
-        { icon: <Building2 size={22} />, text: t('customization.features.2') },
-        { icon: <Rocket size={22} />, text: t('customization.features.3') }
+        { icon: <Building2 size={22} />, text: t('customization.features.2') }
     ];
 
     return (

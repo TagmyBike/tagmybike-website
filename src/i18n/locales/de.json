@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "Smart Tracking.\nIhre Marke.",
-    "subtitle": "Unsichtbare GPS-Tracker für Ihre Marke. OEM-fertige Hardware für Fahrradhersteller, Einzelhändler, E-Bike-Marken und Flottenbetreiber.",
+    "subtitle": "Unsichtbare GPS-Tracker für Ihre Marke. OEM-fertige Hardware für Fahrradhersteller, Einzelhändler und E-Bike-Marken.",
     "cta": "Demo anfragen",
     "secondaryCta": "Lösungen ansehen"
   },
@@ -18,12 +18,11 @@
   "customization": {
     "pill": "B2B White-Label",
     "title": "Ihre Marke. Ihr Smart Tag.",
-    "subtitle": "Überspringen Sie Jahre der F&E und bringen Sie eine gebrandete Smart-Accessoire-Linie in Wochen statt Jahren auf den Markt. Wir kümmern uns um Hardware, Firmware und Cloud — Sie behalten die Kundenbeziehung.",
+    "subtitle": "Überspringen Sie Jahre der F&E und bringen Sie eine gebrandete Smart-Accessoire-Linie in Wochen statt Jahren auf den Markt. Wir kümmern uns um Entwicklung, Firmware und Cloud — Sie branden die Hardware und behalten die Kundenbeziehung.",
     "features": [
-      "Vollständig gebrandete Verpackung & Firmware",
-      "OTA-Firmware-Updates — keine Benutzeraktion erforderlich",
-      "Geräte-Provisionierung & White-Label-Registrierung",
-      "Flexible Mindestbestellmengen für jede Auftragsgröße"
+      "Vollständig gebrandete Verpackung & Hardware",
+      "Flexible Mindestbestellmengen für jede Auftragsgröße",
+      "Geräte-Provisionierung & White-Label-Registrierung"
     ],
     "cta": "Demo anfragen"
   },
@@ -41,15 +40,15 @@
         "label": "Durchschnittliche Zeit, um ein Fahrrad zu stehlen"
       },
       "recovery": {
-        "value": "—",
-        "label": "Wiederbeschaffungsrate — Daten ausstehend"
+        "value": "€930",
+        "label": "Durchschnittlicher Schaden pro gestohlenem Fahrrad"
       }
     },
     "source": "Quelle: European Cyclists' Federation, Polizeiliche Kriminalstatistik"
   },
   "solutionOverview": {
     "title": "Technologie & Plattform",
-    "subtitle": "Alle drei Zubehörteile teilen dieselbe robuste Technologie-Infrastruktur — eine Firmware, eine API, ein Support-Protokoll.",
+    "subtitle": "Alle drei Zubehörteile teilen dieselbe robuste Technologie-Infrastruktur.",
     "cards": {
       "hardware": {
         "title": "Einheitliche Hardware-Plattform",
@@ -57,7 +56,7 @@
       },
       "tracking": {
         "title": "Cloud-Plattform & OTA",
-        "desc": "Automatische Geräte-Provisionierung mit eindeutiger Identität und White-Label-Firmware-Registrierung. OTA-Updates nahtlos auf eingesetzte Geräte pushen — keine Benutzeraktion erforderlich."
+        "desc": "Automatische Geräte-Provisionierung mit eindeutiger Identität und White-Label-Hardware-Registrierung. OTA-Updates nahtlos auf eingesetzte Geräte pushen — keine Benutzeraktion erforderlich."
       },
       "recovery": {
         "title": "Globale Zertifizierungen",
@@ -115,7 +114,7 @@
     "phoneCta": "Vertrieb anrufen"
   },
   "footer": {
-    "tagline": "OEM-fertige GPS-Tracking-Zubehörteile für Fahrradhersteller, Einzelhändler, E-Bike-Marken und Flottenbetreiber.",
+    "tagline": "OEM-fertige GPS-Tracking-Zubehörteile für Fahrradhersteller, Einzelhändler und E-Bike-Marken.",
     "rights": "Alle Rechte vorbehalten.",
     "legal": "Rechtliches",
     "links": {

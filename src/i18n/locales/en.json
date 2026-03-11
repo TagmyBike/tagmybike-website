@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "Smart Tracking.\nYour Brand.",
-    "subtitle": "Invisible GPS trackers ready for your brand. OEM-ready hardware for bike manufacturers, retailers, e-bike brands, and fleet operators.",
+    "subtitle": "Invisible GPS trackers ready for your brand. OEM-ready hardware for bike manufacturers, retailers, and e-bike brands.",
     "cta": "Request a Demo",
     "secondaryCta": "View Solutions"
   },
@@ -18,12 +18,11 @@
   "customization": {
     "pill": "B2B White-Label",
     "title": "Your Brand. Your Smart Tag.",
-    "subtitle": "Skip years of R&D and launch a branded smart accessory line in weeks, not years. We handle hardware, firmware, and cloud — you keep the customer relationship.",
+    "subtitle": "Skip years of R&D and launch a branded smart accessory line in weeks, not years. We handle development, firmware, and cloud — you brand the hardware and keep the customer relationship.",
     "features": [
-      "Fully branded packaging & firmware",
-      "OTA firmware updates — no user action required",
-      "Device provisioning & white-label registration",
-      "Flexible MOQs for any order size"
+      "Fully branded packaging & hardware",
+      "Flexible MOQs for any order size",
+      "Device provisioning & white-label registration"
     ],
     "cta": "Request a Demo"
   },
@@ -41,15 +40,15 @@
         "label": "Average time to steal a bike"
       },
       "recovery": {
-        "value": "—",
-        "label": "Recovery rate — data pending"
+        "value": "€930",
+        "label": "Average damage per stolen bike"
       }
     },
     "source": "Source: European Cyclists' Federation, Police Crime Statistics"
   },
   "solutionOverview": {
     "title": "Technology & Platform",
-    "subtitle": "All three accessories share the same robust technology infrastructure — one firmware, one API, one support protocol.",
+    "subtitle": "All three accessories share the same robust technology infrastructure.",
     "cards": {
       "hardware": {
         "title": "Unified Hardware Platform",
@@ -57,7 +56,7 @@
       },
       "tracking": {
         "title": "Cloud Platform & OTA",
-        "desc": "Automated device provisioning with unique identity and white-label firmware registration. Push OTA updates to deployed devices seamlessly — no user action required."
+        "desc": "Automated device provisioning with unique identity and white-label hardware registration. Push OTA updates to deployed devices seamlessly — no user action required."
       },
       "recovery": {
         "title": "Global Certifications",
@@ -115,7 +114,7 @@
     "phoneCta": "Call Sales"
   },
   "footer": {
-    "tagline": "OEM-ready GPS tracking accessories for bike manufacturers, retailers, e-bike brands, and fleet operators.",
+    "tagline": "OEM-ready GPS tracking accessories for bike manufacturers, retailers, and e-bike brands.",
     "rights": "All rights reserved.",
     "legal": "Legal",
     "links": {

@@ -21,12 +21,12 @@ const SolutionOverview = () => {
                     }}>
                         {t('solutionOverview.title')}
                     </h2>
-                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '560px', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.7 }}>
+                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '560px', margin: '0 auto', fontSize: 'clamp(0.95rem, 2.5vw, 1.05rem)', lineHeight: 1.7 }}>
                         {t('solutionOverview.subtitle')}
                     </p>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '24px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))', gap: '20px' }}>
                     {solutions.map((solution, i) => (
                         <SolutionCard key={i} {...solution} index={i} ctaText={t(`solutionOverview.cta.${solution.key}`)} />
                     ))}
@@ -41,7 +41,7 @@ const SolutionCard = ({ icon: Icon, iconColor, title, description, index, ctaTex
 
     return (
         <div className="glass-panel-enhanced" style={{
-            padding: '36px', borderRadius: '16px', position: 'relative', overflow: 'hidden',
+            padding: 'clamp(24px, 4vw, 36px)', borderRadius: '16px', position: 'relative', overflow: 'hidden',
             animation: `fadeInUp 0.6s ease-out ${0.1 + index * 0.15}s both`, transition: 'all 0.3s ease',
             transform: isHovered ? 'translateY(-4px)' : 'translateY(0)',
             borderColor: isHovered ? `${iconColor}33` : undefined
@@ -55,7 +55,7 @@ const SolutionCard = ({ icon: Icon, iconColor, title, description, index, ctaTex
             }}>
                 <Icon size={32} color={iconColor} />
             </div>
-            <h3 style={{ fontSize: '1.3rem', marginBottom: '12px', color: 'white', fontFamily: 'var(--font-display)' }}>{title}</h3>
+            <h3 style={{ fontSize: 'clamp(1.1rem, 2.5vw, 1.3rem)', marginBottom: '12px', color: 'white', fontFamily: 'var(--font-display)' }}>{title}</h3>
             <p style={{ color: 'var(--color-text-secondary)', marginBottom: '24px', lineHeight: 1.6, fontSize: '0.95rem' }}>{description}</p>
             <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 style={{

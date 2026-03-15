@@ -11,14 +11,14 @@ const Footer = () => {
         <footer style={{
             background: 'linear-gradient(180deg, #020305 0%, #0a0d14 100%)',
             borderTop: '1px solid rgba(198, 255, 59, 0.08)',
-            paddingTop: '80px',
+            paddingTop: 'clamp(48px, 8vw, 80px)',
             paddingBottom: '32px'
         }}>
             <div className="container">
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: '1.5fr 1fr 1fr',
-                    gap: '60px',
+                    gap: 'clamp(32px, 5vw, 60px)',
                     marginBottom: '60px'
                 }} className="footer-grid">
                     <div>

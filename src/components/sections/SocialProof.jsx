@@ -18,18 +18,18 @@ const SocialProof = () => {
                 </div>
 
                 <div style={{
-                    display: 'flex', justifyContent: 'center', gap: '32px',
+                    display: 'flex', justifyContent: 'center', gap: 'clamp(16px, 3vw, 32px)',
                     flexWrap: 'wrap', marginBottom: '24px'
                 }}>
                     {[0, 1, 2, 3, 4].map((i) => (
                         <div key={i} style={{
-                            width: '140px', height: '48px',
+                            width: 'clamp(100px, 20vw, 140px)', height: '44px',
                             border: '1px dashed rgba(255, 255, 255, 0.1)',
                             borderRadius: '8px',
                             display: 'flex', alignItems: 'center', justifyContent: 'center'
                         }}>
                             <span style={{
-                                fontSize: '0.7rem', color: 'rgba(255,255,255,0.15)',
+                                fontSize: '0.75rem', color: 'rgba(255,255,255,0.15)',
                                 fontWeight: '500', letterSpacing: '0.05em'
                             }}>
                                 LOGO

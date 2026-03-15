@@ -17,7 +17,7 @@ const TechSpecs = () => {
                     }}>
                         {t('techSpecs.title')}
                     </h2>
-                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '500px', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.7 }}>
+                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '500px', margin: '0 auto', fontSize: 'clamp(0.95rem, 2.5vw, 1.05rem)', lineHeight: 1.7 }}>
                         {t('techSpecs.subtitle')}
                     </p>
                 </div>
@@ -33,7 +33,7 @@ const TechSpecs = () => {
                             return (
                                 <div key={key} className="table-row-hover" style={{
                                     display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                                    padding: '18px 24px',
+                                    padding: 'clamp(12px, 2vw, 18px) clamp(14px, 3vw, 24px)',
                                     borderBottom: i < specKeys.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none'
                                 }}>
                                     <span style={{ fontSize: '0.9rem', color: 'var(--color-text-secondary)', fontWeight: '500' }}>

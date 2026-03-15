@@ -5,10 +5,10 @@ const ImprintPage = () => {
     const { t } = useTranslation();
 
     return (
-        <div style={{ paddingTop: '120px', paddingBottom: '80px' }}>
+        <div style={{ paddingTop: 'clamp(90px, 12vw, 120px)', paddingBottom: 'clamp(48px, 8vw, 80px)' }}>
             <section className="container">
                 <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                    <h1 style={{ fontSize: '2.5rem', marginBottom: '40px', fontFamily: 'var(--font-display)' }}>{t('imprint.title')}</h1>
+                    <h1 style={{ fontSize: 'clamp(1.8rem, 5vw, 2.5rem)', marginBottom: 'clamp(24px, 5vw, 40px)', fontFamily: 'var(--font-display)' }}>{t('imprint.title')}</h1>
                     <div style={{ color: 'var(--color-text-secondary)', lineHeight: 1.8, fontSize: '1rem' }}>
                         <p style={{ marginBottom: '24px' }}>
                             <strong style={{ color: 'white' }}>BOOOST E-Mobility Solutions GmbH</strong><br />

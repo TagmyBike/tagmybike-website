@@ -38,7 +38,7 @@ const ContactPage = () => {
     ];
 
     return (
-        <div style={{ paddingTop: '120px', paddingBottom: '100px', minHeight: '100vh' }}>
+        <div style={{ paddingTop: 'clamp(90px, 12vw, 120px)', paddingBottom: 'clamp(60px, 10vw, 100px)', minHeight: '100vh' }}>
             <section className="container">
                 <div style={{ maxWidth: '900px', margin: '0 auto' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
@@ -63,8 +63,8 @@ const ContactPage = () => {
                         </p>
                     </div>
 
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '32px' }}>
-                        <div style={{ background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.06)', borderRadius: '16px', padding: '36px' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(320px, 100%), 1fr))', gap: '24px' }}>
+                        <div style={{ background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.06)', borderRadius: '16px', padding: 'clamp(24px, 4vw, 36px)' }}>
                             <h2 style={{ fontSize: '1.3rem', fontWeight: '600', marginBottom: '24px', color: 'white', fontFamily: 'var(--font-display)' }}>
                                 {t('contactPage.formTitle')}
                             </h2>
@@ -88,8 +88,8 @@ const ContactPage = () => {
                                             { id: 'phone', type: 'tel', label: t('contactPage.phone'), placeholder: t('contactPage.phonePlaceholder') }
                                         ].map(field => (
                                             <div key={field.id}>
-                                                <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.85rem', fontWeight: '500', color: 'var(--color-text-secondary)' }}>
-                                                    {field.label} {field.required && '*'}
+                                                <label htmlFor={field.id} style={{ display: 'block', marginBottom: '6px', fontSize: '0.85rem', fontWeight: '500', color: 'var(--color-text-secondary)' }}>
+                                                    {field.label} {field.required && <span style={{ color: 'var(--color-danger)' }}>*</span>}
                                                 </label>
                                                 <input type={field.type} id={field.id} name={field.id} value={formData[field.id]} onChange={handleChange}
                                                     required={field.required} placeholder={field.placeholder} style={inputStyle}
@@ -98,8 +98,8 @@ const ContactPage = () => {
                                             </div>
                                         ))}
                                         <div>
-                                            <label style={{ display: 'block', marginBottom: '6px', fontSize: '0.85rem', fontWeight: '500', color: 'var(--color-text-secondary)' }}>
-                                                {t('contactPage.message')} *
+                                            <label htmlFor="message" style={{ display: 'block', marginBottom: '6px', fontSize: '0.85rem', fontWeight: '500', color: 'var(--color-text-secondary)' }}>
+                                                {t('contactPage.message')} <span style={{ color: 'var(--color-danger)' }}>*</span>
                                             </label>
                                             <textarea id="message" name="message" value={formData.message} onChange={handleChange} required
                                                 placeholder={t('contactPage.messagePlaceholder')} rows={5}
@@ -116,7 +116,7 @@ const ContactPage = () => {
                             )}
                         </div>
 
-                        <div style={{ background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.06)', borderRadius: '16px', padding: '36px' }}>
+                        <div style={{ background: 'rgba(255, 255, 255, 0.02)', border: '1px solid rgba(255, 255, 255, 0.06)', borderRadius: '16px', padding: 'clamp(24px, 4vw, 36px)' }}>
                             <h2 style={{ fontSize: '1.3rem', fontWeight: '600', marginBottom: '24px', color: 'white', fontFamily: 'var(--font-display)' }}>
                                 {t('contactPage.infoTitle')}
                             </h2>

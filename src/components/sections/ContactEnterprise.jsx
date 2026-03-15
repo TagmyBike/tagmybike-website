@@ -9,7 +9,7 @@ const ContactEnterprise = () => {
         <section id="contact" className="section section-glow-accent">
             <div className="container">
                 <div className="glass-panel" style={{
-                    padding: '64px 48px', borderRadius: '20px', maxWidth: '680px', margin: '0 auto',
+                    padding: 'clamp(32px, 5vw, 64px) clamp(20px, 4vw, 48px)', borderRadius: '20px', maxWidth: '680px', margin: '0 auto',
                     background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)', textAlign: 'center'
                 }}>
                     <h2 style={{
@@ -19,7 +19,7 @@ const ContactEnterprise = () => {
                     }}>
                         {t('contactEnterprise.title')}
                     </h2>
-                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '460px', margin: '0 auto 40px', fontSize: '1.05rem', lineHeight: 1.6 }}>
+                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '460px', margin: '0 auto clamp(28px, 5vw, 40px)', fontSize: 'clamp(0.95rem, 2.5vw, 1.05rem)', lineHeight: 1.6 }}>
                         {t('contactEnterprise.subtitle')}
                     </p>
 
@@ -40,7 +40,7 @@ const ContactEnterprise = () => {
 
                     <div style={{
                         borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '28px',
-                        display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '28px'
+                        display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 'clamp(14px, 3vw, 28px)'
                     }}>
                         {[
                             { icon: <Mail size={16} />, text: 'business@tagmybike.com', href: 'mailto:business@tagmybike.com' },

@@ -79,7 +79,9 @@ const Navbar = () => {
                     <button
                         className="mobile-menu-toggle"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                        style={{ display: 'none', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'white', cursor: 'pointer', padding: '10px', borderRadius: '8px' }}
+                        aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+                        aria-expanded={mobileMenuOpen}
+                        style={{ display: 'none', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: 'white', cursor: 'pointer', padding: '12px', borderRadius: '8px', minWidth: '48px', minHeight: '48px', alignItems: 'center', justifyContent: 'center' }}
                     >
                         {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>
@@ -96,7 +98,7 @@ const Navbar = () => {
                 {navLinks.map((link, i) => (
                     <a key={i} href={`#${link.sectionId}`}
                         onClick={(e) => { handleNavClick(e, link.sectionId); setMobileMenuOpen(false); }}
-                        style={{ color: 'white', textDecoration: 'none', fontSize: '1.5rem', fontWeight: '600', cursor: 'pointer' }}
+                        style={{ color: 'white', textDecoration: 'none', fontSize: '1.2rem', fontWeight: '600', cursor: 'pointer', padding: '12px 0', minHeight: '48px', display: 'flex', alignItems: 'center' }}
                     >{link.label}</a>
                 ))}
                 <LanguageSwitcher />

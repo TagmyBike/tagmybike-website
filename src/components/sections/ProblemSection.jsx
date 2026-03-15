@@ -39,7 +39,7 @@ const ProblemSection = () => {
                         </h2>
                     </div>
                     <div className="col-span-8">
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(140px, 100%), 1fr))', gap: '12px' }}>
                             <MetricCard
                                 icon={<AlertTriangle size={28} color="var(--color-danger)" />}
                                 value={t('problem.metrics.loss.value')}
@@ -71,11 +71,11 @@ const ProblemSection = () => {
 
 const MetricCard = ({ icon, value, label }) => (
     <div className="glass-panel card-hover" style={{
-        padding: '24px', borderRadius: 'var(--radius-card)',
+        padding: 'clamp(16px, 3vw, 24px)', borderRadius: 'var(--radius-card)',
         textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px'
     }}>
         <div style={{ marginBottom: '4px' }}>{icon}</div>
-        <div style={{ fontSize: '1.8rem', fontWeight: '700', color: 'white', fontFamily: 'var(--font-display)' }}>{value}</div>
+        <div style={{ fontSize: 'clamp(1.4rem, 4vw, 1.8rem)', fontWeight: '700', color: 'white', fontFamily: 'var(--font-display)' }}>{value}</div>
         <div style={{ fontSize: '0.8rem', color: 'var(--color-text-secondary)', lineHeight: 1.4 }}>{label}</div>
     </div>
 );

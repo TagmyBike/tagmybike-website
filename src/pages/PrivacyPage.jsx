@@ -314,7 +314,7 @@ We reserve the right to adapt this Privacy Policy as needed to comply with chang
     };
 
     return (
-        <div style={{ paddingTop: '120px', paddingBottom: '100px', minHeight: '100vh' }}>
+        <div style={{ paddingTop: 'clamp(90px, 12vw, 120px)', paddingBottom: 'clamp(60px, 10vw, 100px)', minHeight: '100vh' }}>
             <section className="container">
                 <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                     {/* Header */}
@@ -380,7 +380,7 @@ We reserve the right to adapt this Privacy Policy as needed to comply with chang
                         background: 'rgba(255, 255, 255, 0.02)',
                         border: '1px solid rgba(255, 255, 255, 0.06)',
                         borderRadius: '20px',
-                        padding: '40px',
+                        padding: 'clamp(20px, 4vw, 40px)',
                         backdropFilter: 'blur(10px)'
                     }}>
                         {content.sections.map((section, index) => (

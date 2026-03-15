@@ -42,12 +42,12 @@ const CustomBrandingSection = () => {
                     }}>
                         {t('customization.title')}
                     </h2>
-                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '600px', margin: '0 auto', fontSize: '1.1rem', lineHeight: 1.7 }}>
+                    <p style={{ color: 'var(--color-text-secondary)', maxWidth: '600px', margin: '0 auto', fontSize: 'clamp(0.95rem, 2.5vw, 1.1rem)', lineHeight: 1.7 }}>
                         {t('customization.subtitle')}
                     </p>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', marginBottom: '48px', maxWidth: '900px', margin: '0 auto 48px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(240px, 100%), 1fr))', gap: '16px', marginBottom: '48px', maxWidth: '900px', margin: '0 auto 48px' }}>
                     {features.map((feature, i) => (
                         <div key={i} className="glass-panel card-hover" style={{
                             padding: '24px', borderRadius: 'var(--radius-card)',

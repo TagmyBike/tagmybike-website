@@ -21,12 +21,12 @@ const Accessories = () => {
                     }}>
                         {t('accessories.title')}
                     </h2>
-                    <p style={{ color: 'var(--color-text-secondary)', fontSize: '1.05rem', maxWidth: '550px', margin: '0 auto', lineHeight: 1.7 }}>
+                    <p style={{ color: 'var(--color-text-secondary)', fontSize: 'clamp(0.95rem, 2.5vw, 1.05rem)', maxWidth: '550px', margin: '0 auto', lineHeight: 1.7 }}>
                         {t('accessories.subtitle')}
                     </p>
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', maxWidth: '960px', margin: '0 auto' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(260px, 100%), 1fr))', gap: '20px', maxWidth: '960px', margin: '0 auto' }}>
                     {accessories.map((item, i) => (
                         <AccessoryCard key={item.id} item={item} index={i} />
                     ))}
@@ -48,7 +48,7 @@ const AccessoryCard = ({ item, index }) => {
 
     return (
         <div className="glass-panel-enhanced" style={{
-            padding: '40px 32px', borderRadius: '16px',
+            padding: 'clamp(24px, 4vw, 40px) clamp(20px, 3vw, 32px)', borderRadius: '16px',
             display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center',
             animation: `fadeInUp 0.6s ease-out ${0.1 + index * 0.1}s both`,
             transition: 'all 0.3s ease',
@@ -56,7 +56,7 @@ const AccessoryCard = ({ item, index }) => {
         }}
             onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
             <div style={{
-                width: '160px', height: '160px', marginBottom: '24px',
+                width: 'clamp(120px, 28vw, 160px)', height: 'clamp(120px, 28vw, 160px)', marginBottom: '20px',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 borderRadius: '20px', position: 'relative',
                 background: 'linear-gradient(145deg, rgba(20, 20, 25, 0.95), rgba(5, 5, 10, 0.98))',
@@ -66,6 +66,7 @@ const AccessoryCard = ({ item, index }) => {
                 <img
                     src={item.image}
                     alt={item.title}
+                    loading="lazy"
                     style={{
                         width: '85%', height: '85%', objectFit: 'contain',
                         opacity: isHovered ? 1 : 0.9,
@@ -75,7 +76,7 @@ const AccessoryCard = ({ item, index }) => {
                 />
             </div>
             <h3 style={{
-                fontSize: '1.2rem', marginBottom: '12px', fontFamily: 'var(--font-display)',
+                fontSize: 'clamp(1.05rem, 2.5vw, 1.2rem)', marginBottom: '12px', fontFamily: 'var(--font-display)',
                 color: isHovered ? 'var(--color-primary)' : 'white', transition: 'color 0.3s ease'
             }}>
                 {item.title}

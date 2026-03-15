@@ -47,8 +47,8 @@ const Hero = () => {
                                 opacity: isVisible ? 1 : 0, transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
                                 transition: 'opacity 0.6s ease-out 0.2s, transform 0.6s ease-out 0.2s'
                             }}>
-                                <img src="/images/apple-find-my.png" alt="Works with Apple Find My" style={{ height: '36px', borderRadius: '6px' }} />
-                                <img src="/images/works-with-android.jpeg" alt="Works with Android" style={{ height: '36px', borderRadius: '6px' }} />
+                                <img src="/images/apple-find-my.png" alt="Works with Apple Find My" style={{ height: 'clamp(28px, 4vw, 36px)', borderRadius: '6px' }} />
+                                <img src="/images/works-with-android.jpeg" alt="Works with Android" style={{ height: 'clamp(28px, 4vw, 36px)', borderRadius: '6px' }} />
                             </div>
                         </div>
 
@@ -66,8 +66,8 @@ const Hero = () => {
                         </h1>
 
                         <p style={{
-                            fontSize: '1.2rem', color: 'var(--color-text-secondary)', maxWidth: '560px',
-                            margin: '0 auto 40px', lineHeight: 1.7,
+                            fontSize: 'clamp(1rem, 2.5vw, 1.2rem)', color: 'var(--color-text-secondary)', maxWidth: '560px',
+                            margin: '0 auto clamp(28px, 5vw, 40px)', lineHeight: 1.7,
                             opacity: isVisible ? 1 : 0, transform: isVisible ? 'translateY(0)' : 'translateY(20px)',
                             transition: 'opacity 0.8s ease-out 0.4s, transform 0.8s ease-out 0.4s'
                         }}>
